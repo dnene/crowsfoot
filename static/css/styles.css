@@ -212,19 +212,33 @@ sub {
 /* Code */
 
 .codehilite, .highlight { /* Put code blocks in the right place. */
-    width: 600px;
-    margin: 0 0 0 50px;
-    margin-bottom: 20px;
+    /* carried over to pre
+    width: 800px;
+    margin: 0 0 0 0px;
+    margin-bottom: 20px; 
     overflow: auto;
     border: 1px solid grey;
-    border-radius: 5px;
+    border-radius: 5px; 
+     */
 }
 
 .article pre {
     font-family: 'Source Code Pro';
     font-size: .85em;
+    /*
     margin: auto;
     padding: 1em;
+    */
+    width: 800px;
+    margin: 20 0 20 0px;
+    padding: 10 10 10 10px; 
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    overflow: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
 }
 
 .article code {
